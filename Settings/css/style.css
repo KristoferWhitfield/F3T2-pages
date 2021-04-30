@@ -11,6 +11,20 @@
   Font-size: 1em;
 }
 
+/* Clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+ clear: both;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -18,6 +32,8 @@ section {
   border: 3px solid blue;
   border-width: thick;
   border-radius: 3px;
+  background-color: gray;
+  height: 8rem;
 }
 
 
