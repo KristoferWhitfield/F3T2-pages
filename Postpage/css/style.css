@@ -33,28 +33,7 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-section {
-  border: 3px solid blue;
-  border-width: thick;
-  border-radius: 3px;
-  background-color: gray;
-  height: 20rem;
-  width: 50%;
-  margin-top: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 25%;
-}
 
-button {
-  border: 1px solid black;
-  border-radius: 10px;
-  height: 3rem;
-  margin: 1.5rem;
-}
 
 header {
   height: 7vh;
