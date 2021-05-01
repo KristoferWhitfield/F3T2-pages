@@ -71,6 +71,62 @@ header li:last-child {
   right: 3%;
 }
 
+/* *********************
+Boxes
+******************** */
+.whole {
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 4rem;
+}
+
+.addimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#imagehere {
+  height: 30rem;
+  background-color: grey;
+  border: 3px solid blue;
+  border-width: thick;
+  border-radius: 3px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.addcomment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+input {
+  background-color: grey;
+  font-weight: bold;
+  font-style: italic;
+}
+
+button {
+  background-color: grey;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
